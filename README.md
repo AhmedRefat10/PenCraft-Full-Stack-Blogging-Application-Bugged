@@ -246,12 +246,14 @@ Added jodit editor .
 ## Contributors
 
 - **Abhi-hertz** - [@93651229+AE-Hertz](https://github.com/93651229+AE-Hertz)
+- **Ahmed refat** - [@arefat304](https://github.com/arefat304)
 - **Akshit lakhera** - [@akshitlakhera14](https://github.com/akshitlakhera14)
 - **Ananya Gupta** - [@145869907+ananyag309](https://github.com/145869907+ananyag309)
 - **Aryan Ramesh Jain** - [@138214350+jainaryan04](https://github.com/138214350+jainaryan04)
 - **Bhumika** - [@sharmabhmi](https://github.com/sharmabhmi)
 - **Edasgh** - [@edas25564](https://github.com/edas25564)
 - **MIGHTY1o1** - [@shubhagarwalcse](https://github.com/shubhagarwalcse)
+- **Mohammed Yasin Zuhayr** - [@113431400+YasinzHyper](https://github.com/113431400+YasinzHyper)
 - **Nikhil Saxena** - [@91839763+Cleveridiot07](https://github.com/91839763+Cleveridiot07)
 - **Pavan Shanmukha Madhav Gunda** - [@pavanshanmukhmadhav](https://github.com/pavanshanmukhmadhav)
 - **Rahul Kumar** - [@rahulbarnwalonlyu2](https://github.com/rahulbarnwalonlyu2)
