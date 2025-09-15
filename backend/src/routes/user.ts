@@ -49,18 +49,7 @@ userRouter.post("/signup", async (c) => {
 
 // Hashing password logic
 async function hashPassword(password: string): Promise<string> {
-  // Convert the password string to a Uint8Array buffer
-  const encoder = new TextEncoder();
-  const data = encoder.encode(password);
-
-  // Hash the password using SHA-256 Algorithm
-  const hashBuffer = await crypto.subtle.digest("SHA-256", data);
-  // convert this hasbuffer into hexadecimal(readable string)
-  const hashArray = Array.from(new Uint8Array(hashBuffer));
-  const hashHex = hashArray
-    .map((byte) => byte.toString(16).padStart(2, "0"))
-    .join("");
-  return hashHex;
+    return password;
 }
 //                                                 Sigin in
 

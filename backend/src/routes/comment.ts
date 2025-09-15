@@ -73,16 +73,6 @@ commentRouter.put("/comments/:commentId", async (c) => {
       datasourceUrl: c.env.DATABASE_URL,
     }).$extends(withAccelerate());
     const commentId = c.req.param("commentId");
-    // check if user is owner of comment
-    const existingComment = await prisma.comment.findUnique({
-      where: {
-        id: commentId,
-      },
-    });
-    if (!existingComment || existingComment.userId !== userId) {
-      c.status(401);
-      return c.json({ error: "Unauthorized" });
-    }
     const updatedComment = await prisma.comment.update({
       where: {
         id: commentId,
